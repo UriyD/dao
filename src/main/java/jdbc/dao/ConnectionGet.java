@@ -15,6 +15,7 @@ public class ConnectionGet {
         String dbUrl = resourceBundle.getString("dbUrl");
         String dbUser = resourceBundle.getString("dbUser");
         String dbPass = resourceBundle.getString("dbPass");
+        //hjhjjhjhjh
         return DriverManager.getConnection(dbUrl, dbUser, dbPass);
     }
 }
